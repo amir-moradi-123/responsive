@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Madrid</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+<!--website-->
+<div class="wrapper">
+    <!--menu-->
+    <div class="menu">
+        <nav>
+            <div>
+                <a href="#">home</a>
+            </div>
+            <div>
+                <a href="#">about</a>
+            </div>
+            <div>
+                <a href="#">contact</a>
+            </div>
+            <div>
+                <a href="#">galery</a>
+            </div>
+        </nav>
+
+    </div>
+    <label for="item" >
+        <div></div>
+        <div></div>
+        <div></div>
+    </label>
+    <input type="radio" id="item" name="menu">
+    <input type="radio" name="menu" id="close">
+ <div class="hamburger">
+    <nav>
+        <div><a href="#">home</a></div>
+        <div><a href="#">about</a></div>
+        <div><a href="#">contact</a></div>
+        <div><a href="#">galery</a></div>
+    </nav>
+    
+        <label for="close" >
+            &times;
+        </label>
+       
+   
+ </div>
+    <!--menu-->
+</div>
+<!-- slider-->
+<div class="slider">
+    
+   <!-- Swiper -->
+   <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+    
+      <div class="swiper-slide">
+        <img src="./img/Reforma-del-estadio-Santiago-Bernabu-05_2000x1125.webp" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/santiago-bernabéu-stadium-madrid-2020-GettyImages-1194733745.webp" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/san-4.avif" alt="">>
+      </div>
+      </div>
+         
+  
+      
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</div>
+<!--end slider-->
+<!-- end website-->
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 1,
+      centeredSlides: true,
+      autoplay: {
+        delay: 1500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+</html>

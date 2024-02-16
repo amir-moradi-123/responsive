@@ -1,0 +1,16 @@
+{
+  "name": "session-1-web-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "git": "^0.1.5",
+    "swiper": "^11.0.6"
+  },
+  "description": ""
+}

@@ -1,0 +1,11 @@
+@import"./css/media/setting.css";
+@import"./css/media/mobail/mobail.css" only screen and (min-width:0px);
+@import"./css/media/desktop/desktop.css" only screen and (min-width:1000px);
+
+*{
+    margin: 0;
+padding: 0;
+}
+
+
+

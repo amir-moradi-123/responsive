@@ -1,0 +1,51 @@
+.modal{
+    background-color: #2b2b2b;
+    width: 400px;
+    height: 100vh;
+    position: absolute;
+    left: -100%;
+    top: 0;
+    transition: 300ms;
+
+}
+label[for=modal] {
+  width: 120px;
+  height: 40px;
+  background-color: #2b2b2b;
+  color: whitesmoke;
+  display: inline-block;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 10px;
+  cursor: pointer;
+}
+#modal, #close{
+    display: none;
+}
+#modal:checked ~ .modal{
+    left: 0px;
+}
+label[for=close]{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+position: absolute;
+    top: 0;
+    right: 0;
+    background-color: crimson;
+    color: whitesmoke;
+}
+#close:checked ~ .modal{
+left: -400px;
+
+}
+
